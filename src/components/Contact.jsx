@@ -82,6 +82,7 @@ const Contact = ({ id }) => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
+                className="form-control"
                 required
               />
             </div>
@@ -93,6 +94,7 @@ const Contact = ({ id }) => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                className="form-control"
                 required
               />
             </div>
@@ -103,6 +105,7 @@ const Contact = ({ id }) => {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
+                className="form-control"
                 rows="5"
                 required
               ></textarea>
