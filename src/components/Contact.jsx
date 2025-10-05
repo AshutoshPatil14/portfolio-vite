@@ -63,7 +63,7 @@ const Contact = ({ id }) => {
             </div>
             <div className="contact-item">
               <span className="contact-label">Location:</span>
-              <span className="contact-type">Chembur, Mumbai</span>
+              <span className="contact-type">Pen, Raigad, Mumbai</span>
             </div>
           </div>
           <div className="social-links">
